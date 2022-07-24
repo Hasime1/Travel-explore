@@ -2,4 +2,4 @@
 
 ## html & css project
 
-## four sections styled with css
+###### four sections styled with css
