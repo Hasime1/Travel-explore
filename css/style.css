@@ -12,9 +12,9 @@
     --text-color: #221314;
     --second-color: #5a7184;
     --main-color: #6e54fa;
-    --h1-font: 40px;
-    --h2-font: 32px;
-    --p-font: 18px;
+    --h1-font: 38px;
+    --h2-font: 30px;
+    --p-font: 16px;
 }
 
 body {
@@ -24,9 +24,7 @@ body {
         sans-serif;
 }
  
- .container {
-    height: 1200px auto;
-} 
+
 
 /*header*/
 header {
@@ -49,7 +47,7 @@ header nav ul li {
 
 .navbar a {
     color: var(--text-color);
-    font-size: 28px;
+    font-size: 26px;
     font-weight: 500;
     padding: 10px 22px;
     border-radius: 4px;
@@ -403,7 +401,7 @@ section.services .container-img img {
 }
 
 /*extra small devices (phones)*/
- @media (max-width:768px) {
+ @media (max-width:575px) {
  
     header ul li {
         display: none;
@@ -443,7 +441,6 @@ section.services .container-img img {
 
 
     .container-img img {
-       
        padding: 10px;
         background: var(--bg-color);
         box-shadow: 5px 10px 30px rgb(85 85 85/20%);
@@ -463,11 +460,10 @@ section.services .container-img img {
 
 
 /*small devices (tablets)*/
- @media (min-width:768px) and (max-width:992px) {
+ @media (min-width:575px) and (max-width:1040px) {
     header ul li {
         display: none;
     }
-
     .home {
         height: 88vh;
     }
