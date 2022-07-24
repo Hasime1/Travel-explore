@@ -402,8 +402,8 @@ section.services .container-img img {
     width: 25%;
 }
 
-/*small devices*/
- @media (max-width:575px) {
+/*extra small devices (phones)*/
+ @media (max-width:768px) {
  
     header ul li {
         display: none;
@@ -462,8 +462,8 @@ section.services .container-img img {
 } 
 
 
-/*medium devices*/
- @media (min-width:575px) and (max-width:1040px) {
+/*small devices (tablets)*/
+ @media (min-width:768px) and (max-width:992px) {
     header ul li {
         display: none;
     }
@@ -481,7 +481,7 @@ section.services .container-img img {
      --h1-font: 34px;
      --h2-font: 28px;
      --p-font: 14px;
-     transition: .2s;
+  
  }
 } 
 
